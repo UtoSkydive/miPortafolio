@@ -167,6 +167,32 @@ img {
   right: 20px;
   z-index: 100;
 }
+.translate{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border:none;
+}
+.btn1 {
+  position: fixed;
+  left: 10px; 
+  bottom:10px;
+  z-index: 100;
+  background-image:url('/assets/ico/col.png');
+  background-repeat:no-repeat;
+  background-size: 60px 50px;
+  background-position:center;
+}
+.btn2 {
+  position: fixed;
+  left: 60px;
+  bottom:10px;;
+  z-index: 100;
+  background-image:url('/assets/ico/euu.png');
+  background-repeat:no-repeat;
+  background-size: 60px 50px;
+  background-position:center;
+}
 .footer {
   display: flex;
   justify-content: center;

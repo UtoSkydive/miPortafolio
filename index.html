@@ -36,18 +36,18 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#start">Inicio</a>
+              <a class="nav-link active lang" aria-current="page" href="#start"  key="inicio">Inicio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#aboutMe">Sobre Mi</a>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link" href="#portafolio">Portafolio</a>
+              <a class="nav-link lang" href="#aboutMe"  key="SobreMi">Sobre Mi</a>
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="#contacto">Contacto</a>
+              <a class="nav-link lang" href="#portafolio" key="textbtnportafolio">Portafolio</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link lang" href="#contacto" key="Contacto">Contacto</a>
             </li>
           </ul>
         </div>
@@ -70,11 +70,11 @@
       <div class="container-info" id="start">
         <article class="text-informacion">
           <h1>Augusto Cáceres Suárez</h1>
-          <p>
+          <p class="lang" key="textInfo">
             Yo Soy Augusto, Profesional en desarrollo web, apasionado por la programación y abierto a aprender constantemente.
           </p>
-          <a class="btn btn-primary" href="#portafolio" role="button">Portafolio</a>
-          <a class="btn btn-primary" href="/assets/cv/hvAugusto.pdf" role="button" download="hvAugusto">Descargar CV</a>
+          <a class="btn btn-primary lang" href="#portafolio" role="button" key="textbtnportafolio">Portafolio</a>
+          <a class="btn btn-primary lang" href="/assets/cv/hvAugusto.pdf" role="button" download="hvAugusto" key="textbtnDescargar">Descargar Hv</a>
           
         </article>
       </div>
@@ -84,22 +84,22 @@
     <!-- inicio seccion sobre mi -->
     <section class="about-me" id="aboutMe">
       <article class="tex-aboutMe">
-        <h2>Sobre Mi</h2>
+        <h2 class="lang" key="SobreMi">Sobre Mi</h2>
         <p class="Line">_____</p>
-        <blockquote>"Somos arquitectos de nuestro propio destino." Albert Einsten</blockquote>
+        <blockquote class="lang" key="phrase">"Somos arquitectos de nuestro propio destino." Albert Einsten</blockquote>
       </article>
       <div class="contenido__aboutme">
           <div class="image__aboutme">
             <img src="/assets/img/yoo2.png" alt="" />
           </div>
           <article class="content__aboutme">
-              <h2>Hola!</h2>
-            <p>
+              <h2 class="lang" key="aboutSaludo">Hola!</h2>
+            <p class="lang" key="textabout">
               Soy Augusto Cáceres Suárez. ; Soy un ingeniero de sistemas con conocimientos en CSS, JAVASCRIPT y HTML.
             </p>
             <ul>
-              <li><span>Nombre:</span>Augusto C&aacuteceres Su&aacuterez</li>
-              <li><span>Tel&eacutefono:</span> 3156543945</li>
+              <li><span class="lang" key="name" >Nombre:</span>Augusto C&aacuteceres Su&aacuterez</li>
+              <li><span class="lang" key="tel">Tel&eacutefono:</span> 3156543945</li>
               <li><span>Email : </span>augustocsuarez1985@gmail.com</li>
             </ul>
           </article>
@@ -110,9 +110,9 @@
     <!-- inicio portafolio -->
     <section class="portafolio" id="portafolio">
       <article class="tex-portafolio">
-        <h2>Portafolio</h2>
+        <h2 class="lang" key="textbtnportafolio">Portafolio</h2>
         <p class="Line">_____</p>
-        <p>
+        <p class="lang" key="textPortafolio">
          En esta secci&oacuten, Se encontraran algunas practicas realizadas.
         </p>
       </article>
@@ -145,11 +145,12 @@
     <!-- inicio seccion contact -->
     <section class="contact" id="contacto">
         <article class="tex-contact">
-            <h2>Contacto</h2>
+            <h2 class="lang" key="Contacto">Contacto</h2>
             <p class="Line">_____</p>
-            <p>
-              Si me quieres encontrar solo Llama o escribeme 🕵️‍♂️
+            <p class="lang" key="textContact">
+              Si me quieres encontrar solo Llama o escribeme 
             </p>
+            <span style="font-size: 30px;">🕵️‍♂️</span>
         </article>
         <article class="info-contact">
             <div class="item__info">
@@ -157,7 +158,7 @@
                     <i class="fas fa-phone-alt"></i>
                 </div>
                 <div class="info__text">
-                   <h5>Tel&eacutefono</h5>
+                   <h5 class="lang" key="tel">Tel&eacutefono</h5>
                    <p>3156543945</p>
                 </div>
             </div>
@@ -178,6 +179,8 @@
         <p> Copyright &copy; 2021, Todos los derechos reservados. 🚴‍♂️ by <span>Uto</span> &#9749</p>
     </footer>
     <span class="ir-arriba icon-arrow-up2"></span>
+    <button class="translate btn1" id="es"></button>
+    <button class="translate btn2" id="en"></button>
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"

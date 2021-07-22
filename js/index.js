@@ -1,4 +1,15 @@
 $(document).ready(function(){
+	$.getJSON('js/lang.json',function(json){
+		console.log(json)
+		$('.translate').click(function(){
+			let lang = $(this).attr('id');
+			$('.lang').each(function(index,value){
+				$(this).text(json[lang][$(this).attr('key')]);
+
+			})//cierra each
+
+		})
+	})//cierra json
 
 	$('.ir-arriba').click(function(){
 		$('body, html').animate({

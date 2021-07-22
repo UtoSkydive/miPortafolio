@@ -1,0 +1,33 @@
+{
+    "es":{
+        "textInfo": "Yo Soy Augusto, Profesional en desarrollo web, apasionado por la programación y abierto a aprender constantemente.",
+        "textbtnportafolio": "Mi Portafolio",
+        "textbtnDescargar" : "Descargar Hv",
+        "inicio": "Inicio",
+        "SobreMi":"Sobre Mi",
+        "Contacto":"Contacto",
+        "textabout":"Soy Augusto Cáceres Suárez. ; Soy un ingeniero de sistemas con conocimientos en CSS, JAVASCRIPT y HTML.",
+        "aboutSaludo" : "Hola!",
+        "name" : "Nombre:",
+        "tel" : "Teléfono:",
+        "textContact" : "Si me quieres encontrar solo Llama o escribeme.",
+        "textPortafolio" : "En esta sección, Se encontraran algunas practicas realizadas.",
+        "phrase":"“Somos arquitectos de nuestro propio destino.” Albert Einsten"
+        
+    },
+    "en":{
+        "textInfo":"I am Augusto, professional web developer with long time experience in this field​",
+        "textbtnportafolio": "My Portfolio ",
+        "textbtnDescargar" : "Download Cv",
+        "inicio": "Home",
+        "SobreMi":"About Me",
+        "Contacto":"Contact",
+        "textabout":"Hi, I am Augusto Cáceres Suárez. ; I am a system engineer with knowledge in CSS, JAVASCRIPT and HTML.",
+        "aboutSaludo" : "Hi!",
+        "name" : "Name:",
+        "tel" : "Phone:",
+        "textContact" :"If you want to find me just call or write me.",
+        "textPortafolio" : "In this section, you will find some works made by me.",
+        "phrase": "“We are architects of our own destiny.” Albert Einsten"
+    }
+}
